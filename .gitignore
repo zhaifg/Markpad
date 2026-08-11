@@ -8,9 +8,14 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+__unconfig_*.config.js
 test.md
 test_image.png
 src-tauri/output.txt
+
+# Local AI session transcripts and runtime logs
+.waylog/
+*.log
 
 # Build output and local working directories
 dist/
